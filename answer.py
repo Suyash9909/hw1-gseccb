@@ -130,7 +130,7 @@ def dictionary_nested():
 
     # Add "programmer" to the list that key "jobs" maps to.
 
-    Grace["jobs"]+="programmer"
+    Grace["jobs"].append("programmer")
 
     # Get the third item in the list that key "job" maps to. (the item  you recently added)
     
