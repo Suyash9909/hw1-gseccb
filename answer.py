@@ -49,11 +49,11 @@ def list_1D():
     s = " hoboken,is,awesome,i,like,it "
     #Remove whitespace characters on both side and assign it to a new variable hoboken.
 
-    hoboken = s[1:31]
+    hoboken = s[1:28]
 
     # Split variable hoboken on a delimiter(comma) into a list of substrings and assign it to a new variable hoboken_list.
 
-    hoboken_list = [hoboken]
+    hoboken_list = [hoboken.split(",")]
 
     # Get the first item in the hoboken_list and assign it to a new variable hoboken_first_item.
 
