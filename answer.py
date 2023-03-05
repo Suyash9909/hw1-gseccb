@@ -49,7 +49,7 @@ def list_1D():
     s = " hoboken,is,awesome,i,like,it "
     #Remove whitespace characters on both side and assign it to a new variable hoboken.
 
-    hoboken = s[1:28]
+    hoboken = s[1:29]
 
     # Split variable hoboken on a delimiter(comma) into a list of substrings and assign it to a new variable hoboken_list.
 
